@@ -1,0 +1,166 @@
+name,patient ID, grade (GlaS), grade (Sirinukunwattana et al. 2015),fold,image_height,image_width,img_npy,anno_npy
+testA_1,4, benign, adenomatous,1,522,775,img_npy/testA_1.npy,img_npy/testA_1_anno.npy
+testA_10,10, benign, healthy,1,522,775,img_npy/testA_10.npy,img_npy/testA_10_anno.npy
+testA_11,9, benign, healthy,1,522,775,img_npy/testA_11.npy,img_npy/testA_11_anno.npy
+testA_12,11, malignant, poorly differentiated,1,522,775,img_npy/testA_12.npy,img_npy/testA_12_anno.npy
+testA_13,7, malignant, moderately differentiated,1,522,775,img_npy/testA_13.npy,img_npy/testA_13_anno.npy
+testA_14,7, malignant, moderately differentiated,1,522,775,img_npy/testA_14.npy,img_npy/testA_14_anno.npy
+testA_15,7, malignant, moderately differentiated,1,522,775,img_npy/testA_15.npy,img_npy/testA_15_anno.npy
+testA_16,4, malignant, moderately differentiated,1,442,581,img_npy/testA_16.npy,img_npy/testA_16_anno.npy
+testA_17,7, malignant, moderately differentiated,1,522,775,img_npy/testA_17.npy,img_npy/testA_17_anno.npy
+testA_18,9, benign, healthy,1,522,775,img_npy/testA_18.npy,img_npy/testA_18_anno.npy
+testA_19,11, benign, adenomatous,1,522,775,img_npy/testA_19.npy,img_npy/testA_19_anno.npy
+testA_2,3, benign, healthy,1,453,589,img_npy/testA_2.npy,img_npy/testA_2_anno.npy
+testA_20,9, benign, healthy,1,522,775,img_npy/testA_20.npy,img_npy/testA_20_anno.npy
+testA_21,9, benign, healthy,1,522,775,img_npy/testA_21.npy,img_npy/testA_21_anno.npy
+testA_22,11, malignant, moderately-to-poorly differentated,1,522,775,img_npy/testA_22.npy,img_npy/testA_22_anno.npy
+testA_23,4, malignant, poorly differentiated,1,522,775,img_npy/testA_23.npy,img_npy/testA_23_anno.npy
+testA_24,7, malignant, moderately differentiated,1,522,775,img_npy/testA_24.npy,img_npy/testA_24_anno.npy
+testA_25,10, benign, healthy,1,522,775,img_npy/testA_25.npy,img_npy/testA_25_anno.npy
+testA_26,7, malignant, moderately differentiated,1,522,775,img_npy/testA_26.npy,img_npy/testA_26_anno.npy
+testA_27,11, benign, adenomatous,1,522,775,img_npy/testA_27.npy,img_npy/testA_27_anno.npy
+testA_28,10, benign, healthy,1,522,775,img_npy/testA_28.npy,img_npy/testA_28_anno.npy
+testA_29,11, malignant, moderately-to-poorly differentated,1,522,775,img_npy/testA_29.npy,img_npy/testA_29_anno.npy
+testA_3,4, malignant, moderately differentiated,1,442,581,img_npy/testA_3.npy,img_npy/testA_3_anno.npy
+testA_30,4, benign, adenomatous,1,522,775,img_npy/testA_30.npy,img_npy/testA_30_anno.npy
+testA_31,9, benign, healthy,1,522,775,img_npy/testA_31.npy,img_npy/testA_31_anno.npy
+testA_32,11, malignant, moderately-to-poorly differentated,1,522,775,img_npy/testA_32.npy,img_npy/testA_32_anno.npy
+testA_33,9, benign, healthy,1,522,775,img_npy/testA_33.npy,img_npy/testA_33_anno.npy
+testA_34,4, malignant, poorly differentiated,1,522,775,img_npy/testA_34.npy,img_npy/testA_34_anno.npy
+testA_35,15, benign, healthy,1,453,589,img_npy/testA_35.npy,img_npy/testA_35_anno.npy
+testA_36,10, benign, healthy,1,522,775,img_npy/testA_36.npy,img_npy/testA_36_anno.npy
+testA_37,10, benign, healthy,1,522,775,img_npy/testA_37.npy,img_npy/testA_37_anno.npy
+testA_38,7, malignant, moderately differentiated,1,522,775,img_npy/testA_38.npy,img_npy/testA_38_anno.npy
+testA_39,7, malignant, moderately differentiated,1,522,775,img_npy/testA_39.npy,img_npy/testA_39_anno.npy
+testA_4,9, benign, healthy,1,522,775,img_npy/testA_4.npy,img_npy/testA_4_anno.npy
+testA_40,11, benign, adenomatous,1,522,775,img_npy/testA_40.npy,img_npy/testA_40_anno.npy
+testA_41,7, malignant, moderately differentiated,1,522,775,img_npy/testA_41.npy,img_npy/testA_41_anno.npy
+testA_42,7, malignant, moderately differentiated,1,522,775,img_npy/testA_42.npy,img_npy/testA_42_anno.npy
+testA_43,15, benign, healthy,1,453,589,img_npy/testA_43.npy,img_npy/testA_43_anno.npy
+testA_44,13, benign, healthy,1,453,589,img_npy/testA_44.npy,img_npy/testA_44_anno.npy
+testA_45,12, malignant, moderately differentiated,1,433,578,img_npy/testA_45.npy,img_npy/testA_45_anno.npy
+testA_46,4, benign, adenomatous,1,522,775,img_npy/testA_46.npy,img_npy/testA_46_anno.npy
+testA_47,11, malignant, moderately-to-poorly differentated,1,522,775,img_npy/testA_47.npy,img_npy/testA_47_anno.npy
+testA_48,4, malignant, poorly differentiated,1,522,775,img_npy/testA_48.npy,img_npy/testA_48_anno.npy
+testA_49,4, benign, adenomatous,1,522,775,img_npy/testA_49.npy,img_npy/testA_49_anno.npy
+testA_5,11, benign, adenomatous,1,522,775,img_npy/testA_5.npy,img_npy/testA_5_anno.npy
+testA_50,13, benign, healthy,1,433,574,img_npy/testA_50.npy,img_npy/testA_50_anno.npy
+testA_51,7, malignant, moderately differentiated,1,522,775,img_npy/testA_51.npy,img_npy/testA_51_anno.npy
+testA_52,4, benign, adenomatous,1,522,775,img_npy/testA_52.npy,img_npy/testA_52_anno.npy
+testA_53,7, malignant, moderately differentiated,1,522,775,img_npy/testA_53.npy,img_npy/testA_53_anno.npy
+testA_54,10, benign, healthy,1,522,775,img_npy/testA_54.npy,img_npy/testA_54_anno.npy
+testA_55,10, benign, healthy,1,522,775,img_npy/testA_55.npy,img_npy/testA_55_anno.npy
+testA_56,4, malignant, poorly differentiated,1,522,775,img_npy/testA_56.npy,img_npy/testA_56_anno.npy
+testA_57,11, malignant, poorly differentiated,1,522,775,img_npy/testA_57.npy,img_npy/testA_57_anno.npy
+testA_58,10, benign, healthy,1,522,775,img_npy/testA_58.npy,img_npy/testA_58_anno.npy
+testA_59,11, malignant, poorly differentiated,1,522,775,img_npy/testA_59.npy,img_npy/testA_59_anno.npy
+testA_6,9, benign, healthy,1,522,775,img_npy/testA_6.npy,img_npy/testA_6_anno.npy
+testA_60,4, benign, adenomatous,1,522,775,img_npy/testA_60.npy,img_npy/testA_60_anno.npy
+testA_7,4, benign, adenomatous,1,522,775,img_npy/testA_7.npy,img_npy/testA_7_anno.npy
+testA_8,11, malignant, poorly differentiated,1,522,775,img_npy/testA_8.npy,img_npy/testA_8_anno.npy
+testA_9,4, benign, adenomatous,1,522,775,img_npy/testA_9.npy,img_npy/testA_9_anno.npy
+testB_1,3, malignant, moderately differentiated,2,522,775,img_npy/testB_1.npy,img_npy/testB_1_anno.npy
+testB_10,3, malignant, moderately differentiated,2,522,775,img_npy/testB_10.npy,img_npy/testB_10_anno.npy
+testB_11,2, malignant, moderately-to-poorly differentated,2,522,775,img_npy/testB_11.npy,img_npy/testB_11_anno.npy
+testB_12,1, malignant, poorly differentiated,2,522,775,img_npy/testB_12.npy,img_npy/testB_12_anno.npy
+testB_13,7, malignant, moderately differentiated,2,522,775,img_npy/testB_13.npy,img_npy/testB_13_anno.npy
+testB_14,3, malignant, moderately differentiated,2,522,775,img_npy/testB_14.npy,img_npy/testB_14_anno.npy
+testB_15,1, malignant, poorly differentiated,2,522,775,img_npy/testB_15.npy,img_npy/testB_15_anno.npy
+testB_16,1, malignant, poorly differentiated,2,522,775,img_npy/testB_16.npy,img_npy/testB_16_anno.npy
+testB_17,5, benign, adenomatous,2,522,775,img_npy/testB_17.npy,img_npy/testB_17_anno.npy
+testB_18,2, malignant, moderately-to-poorly differentated,2,522,775,img_npy/testB_18.npy,img_npy/testB_18_anno.npy
+testB_19,2, malignant, moderately-to-poorly differentated,2,522,775,img_npy/testB_19.npy,img_npy/testB_19_anno.npy
+testB_2,7, malignant, moderately differentiated,2,522,775,img_npy/testB_2.npy,img_npy/testB_2_anno.npy
+testB_20,7, malignant, moderately differentiated,2,522,775,img_npy/testB_20.npy,img_npy/testB_20_anno.npy
+testB_3,2, malignant, moderately-to-poorly differentated,2,522,775,img_npy/testB_3.npy,img_npy/testB_3_anno.npy
+testB_4,5, benign, adenomatous,2,522,775,img_npy/testB_4.npy,img_npy/testB_4_anno.npy
+testB_5,5, benign, adenomatous,2,522,775,img_npy/testB_5.npy,img_npy/testB_5_anno.npy
+testB_6,3, malignant, moderately differentiated,2,522,775,img_npy/testB_6.npy,img_npy/testB_6_anno.npy
+testB_7,5, benign, adenomatous,2,522,775,img_npy/testB_7.npy,img_npy/testB_7_anno.npy
+testB_8,7, malignant, moderately differentiated,2,522,775,img_npy/testB_8.npy,img_npy/testB_8_anno.npy
+testB_9,1, malignant, poorly differentiated,2,522,775,img_npy/testB_9.npy,img_npy/testB_9_anno.npy
+train_1,2, malignant, moderately differentiated,0,522,775,img_npy/train_1.npy,img_npy/train_1_anno.npy
+train_10,2, malignant, moderately differentiated,0,522,775,img_npy/train_10.npy,img_npy/train_10_anno.npy
+train_11,10, malignant, poorly differentiated,0,522,775,img_npy/train_11.npy,img_npy/train_11_anno.npy
+train_12,13, benign, healthy,0,433,574,img_npy/train_12.npy,img_npy/train_12_anno.npy
+train_13,1, malignant, poorly differentiated,0,522,775,img_npy/train_13.npy,img_npy/train_13_anno.npy
+train_14,1, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_14.npy,img_npy/train_14_anno.npy
+train_15,4, benign, adenomatous,0,522,775,img_npy/train_15.npy,img_npy/train_15_anno.npy
+train_16,10, malignant, poorly differentiated,0,522,775,img_npy/train_16.npy,img_npy/train_16_anno.npy
+train_17,3, malignant, moderately differentiated,0,522,775,img_npy/train_17.npy,img_npy/train_17_anno.npy
+train_18,6, malignant, moderately differentiated,0,522,775,img_npy/train_18.npy,img_npy/train_18_anno.npy
+train_19,3, malignant, moderately differentiated,0,522,775,img_npy/train_19.npy,img_npy/train_19_anno.npy
+train_2,5, benign, adenomatous,0,522,775,img_npy/train_2.npy,img_npy/train_2_anno.npy
+train_20,10, benign, healthy,0,522,775,img_npy/train_20.npy,img_npy/train_20_anno.npy
+train_21,5, benign, adenomatous,0,522,775,img_npy/train_21.npy,img_npy/train_21_anno.npy
+train_22,9, benign, healthy,0,522,775,img_npy/train_22.npy,img_npy/train_22_anno.npy
+train_23,2, malignant, moderately differentiated,0,522,775,img_npy/train_23.npy,img_npy/train_23_anno.npy
+train_24,1, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_24.npy,img_npy/train_24_anno.npy
+train_25,10, benign, healthy,0,522,775,img_npy/train_25.npy,img_npy/train_25_anno.npy
+train_26,1, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_26.npy,img_npy/train_26_anno.npy
+train_27,1, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_27.npy,img_npy/train_27_anno.npy
+train_28,10, malignant, poorly differentiated,0,522,775,img_npy/train_28.npy,img_npy/train_28_anno.npy
+train_29,2, malignant, moderately differentiated,0,522,775,img_npy/train_29.npy,img_npy/train_29_anno.npy
+train_3,2, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_3.npy,img_npy/train_3_anno.npy
+train_30,9, benign, healthy,0,522,775,img_npy/train_30.npy,img_npy/train_30_anno.npy
+train_31,2, malignant, moderately differentiated,0,522,775,img_npy/train_31.npy,img_npy/train_31_anno.npy
+train_32,1, benign, adenomatous,0,522,775,img_npy/train_32.npy,img_npy/train_32_anno.npy
+train_33,9, benign, healthy,0,522,775,img_npy/train_33.npy,img_npy/train_33_anno.npy
+train_34,5, benign, adenomatous,0,522,775,img_npy/train_34.npy,img_npy/train_34_anno.npy
+train_35,7, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_35.npy,img_npy/train_35_anno.npy
+train_36,16, malignant, moderately differentiated,0,453,589,img_npy/train_36.npy,img_npy/train_36_anno.npy
+train_37,1, malignant, poorly differentiated,0,522,775,img_npy/train_37.npy,img_npy/train_37_anno.npy
+train_38,1, benign, adenomatous,0,522,775,img_npy/train_38.npy,img_npy/train_38_anno.npy
+train_39,1, malignant, poorly differentiated,0,522,775,img_npy/train_39.npy,img_npy/train_39_anno.npy
+train_4,3, benign, adenomatous,0,522,775,img_npy/train_4.npy,img_npy/train_4_anno.npy
+train_40,2, malignant, moderately differentiated,0,522,775,img_npy/train_40.npy,img_npy/train_40_anno.npy
+train_41,8, malignant, moderately differentiated,0,430,567,img_npy/train_41.npy,img_npy/train_41_anno.npy
+train_42,10, malignant, poorly differentiated,0,522,775,img_npy/train_42.npy,img_npy/train_42_anno.npy
+train_43,2, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_43.npy,img_npy/train_43_anno.npy
+train_44,2, malignant, moderately differentiated,0,522,775,img_npy/train_44.npy,img_npy/train_44_anno.npy
+train_45,10, benign, healthy,0,522,775,img_npy/train_45.npy,img_npy/train_45_anno.npy
+train_46,10, benign, healthy,0,522,775,img_npy/train_46.npy,img_npy/train_46_anno.npy
+train_47,5, benign, adenomatous,0,522,775,img_npy/train_47.npy,img_npy/train_47_anno.npy
+train_48,7, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_48.npy,img_npy/train_48_anno.npy
+train_49,7, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_49.npy,img_npy/train_49_anno.npy
+train_5,11, malignant, poorly differentiated,0,522,775,img_npy/train_5.npy,img_npy/train_5_anno.npy
+train_50,16, malignant, moderately differentiated,0,453,589,img_npy/train_50.npy,img_npy/train_50_anno.npy
+train_51,9, benign, healthy,0,522,775,img_npy/train_51.npy,img_npy/train_51_anno.npy
+train_52,3, benign, adenomatous,0,522,775,img_npy/train_52.npy,img_npy/train_52_anno.npy
+train_53,10, benign, healthy,0,522,775,img_npy/train_53.npy,img_npy/train_53_anno.npy
+train_54,6, malignant, moderately differentiated,0,522,775,img_npy/train_54.npy,img_npy/train_54_anno.npy
+train_55,3, benign, adenomatous,0,522,775,img_npy/train_55.npy,img_npy/train_55_anno.npy
+train_56,4, benign, adenomatous,0,522,775,img_npy/train_56.npy,img_npy/train_56_anno.npy
+train_57,11, malignant, poorly differentiated,0,522,775,img_npy/train_57.npy,img_npy/train_57_anno.npy
+train_58,3, malignant, moderately differentiated,0,522,775,img_npy/train_58.npy,img_npy/train_58_anno.npy
+train_59,9, benign, healthy,0,522,775,img_npy/train_59.npy,img_npy/train_59_anno.npy
+train_6,3, benign, adenomatous,0,522,775,img_npy/train_6.npy,img_npy/train_6_anno.npy
+train_60,6, malignant, moderately differentiated,0,522,775,img_npy/train_60.npy,img_npy/train_60_anno.npy
+train_61,9, benign, healthy,0,522,775,img_npy/train_61.npy,img_npy/train_61_anno.npy
+train_62,9, benign, healthy,0,522,775,img_npy/train_62.npy,img_npy/train_62_anno.npy
+train_63,10, benign, healthy,0,522,775,img_npy/train_63.npy,img_npy/train_63_anno.npy
+train_64,1, benign, adenomatous,0,522,775,img_npy/train_64.npy,img_npy/train_64_anno.npy
+train_65,1, benign, adenomatous,0,522,775,img_npy/train_65.npy,img_npy/train_65_anno.npy
+train_66,2, malignant, moderately differentiated,0,522,775,img_npy/train_66.npy,img_npy/train_66_anno.npy
+train_67,4, benign, adenomatous,0,522,775,img_npy/train_67.npy,img_npy/train_67_anno.npy
+train_68,1, malignant, poorly differentiated,0,522,775,img_npy/train_68.npy,img_npy/train_68_anno.npy
+train_69,9, benign, healthy,0,522,775,img_npy/train_69.npy,img_npy/train_69_anno.npy
+train_7,14, malignant, moderately differentiated,0,453,589,img_npy/train_7.npy,img_npy/train_7_anno.npy
+train_70,2, malignant, moderately differentiated,0,522,775,img_npy/train_70.npy,img_npy/train_70_anno.npy
+train_71,2, malignant, moderately differentiated,0,522,775,img_npy/train_71.npy,img_npy/train_71_anno.npy
+train_72,10, benign, healthy,0,522,775,img_npy/train_72.npy,img_npy/train_72_anno.npy
+train_73,6, malignant, moderately differentiated,0,522,775,img_npy/train_73.npy,img_npy/train_73_anno.npy
+train_74,2, malignant, moderately differentiated,0,522,775,img_npy/train_74.npy,img_npy/train_74_anno.npy
+train_75,3, malignant, moderately differentiated,0,522,775,img_npy/train_75.npy,img_npy/train_75_anno.npy
+train_76,7, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_76.npy,img_npy/train_76_anno.npy
+train_77,2, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_77.npy,img_npy/train_77_anno.npy
+train_78,2, malignant, moderately differentiated,0,522,775,img_npy/train_78.npy,img_npy/train_78_anno.npy
+train_79,10, benign, healthy,0,522,775,img_npy/train_79.npy,img_npy/train_79_anno.npy
+train_8,10, benign, healthy,0,522,775,img_npy/train_8.npy,img_npy/train_8_anno.npy
+train_80,4, benign, adenomatous,0,522,775,img_npy/train_80.npy,img_npy/train_80_anno.npy
+train_81,11, malignant, poorly differentiated,0,522,775,img_npy/train_81.npy,img_npy/train_81_anno.npy
+train_82,2, malignant, moderately-to-poorly differentated,0,522,775,img_npy/train_82.npy,img_npy/train_82_anno.npy
+train_83,11, malignant, poorly differentiated,0,522,775,img_npy/train_83.npy,img_npy/train_83_anno.npy
+train_84,15, benign, healthy,0,453,589,img_npy/train_84.npy,img_npy/train_84_anno.npy
+train_85,10, benign, healthy,0,522,775,img_npy/train_85.npy,img_npy/train_85_anno.npy
+train_9,10, benign, healthy,0,522,775,img_npy/train_9.npy,img_npy/train_9_anno.npy
