@@ -38,8 +38,10 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # define model
 model = smp.Unet(encoder_name=config.encoder_model, decoder_use_batchnorm=True,
                  in_channels=3, classes=config.n_class).to(device)
-summary(model, (3, 512, 512))
+# summary(model, (3, 512, 512))
 optimizer = eval(config.optimizer)(model.parameters(), lr=float(config.learning_rate))
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=20,
+                                                       factor=0.1)
 # xent = nn.BCELoss()
 dice_loss = smp.losses.DiceLoss(smp.losses.BINARY_MODE, from_logits=True)
 # label smoothing
@@ -133,49 +135,56 @@ def test(model):
             'segs': segs.cpu().detach().numpy(),
             'pred': pred.cpu().detach().numpy()}
 
+
 start = time.time()
-for e in range(1, epochs+2):
+
+def main():
     current_total_loss = 1000
     current_dice_score = 0
-    print("Epcohs:", e)
-    train_output = train(model, optimizer)
-    test_output = test(model)
-    print("Training Outputs: ")
-    print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(train_output['loss'], train_output['xent_l'], 1 - train_output['dice_l']))
-    print("-"*100)
-    print("Validation Outputs: ")
-    print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(test_output['loss'], test_output['xent_l'], 1-test_output['dice_l']))
-    # logging
-    wandb.log({"Train_total_loss": train_output['loss'], "Val_total_loss": test_output['loss']}, step=e)
-    wandb.log({"Train_BCE_loss": train_output['xent_l'], "Val_BCE_loss": test_output['xent_l']}, step=e)
-    wandb.log({"Train_dice_score": 1-train_output['dice_l'], "Val_dice_score": 1-test_output['dice_l']}, step=e)
+    for e in range(1, epochs+2):
+        print("Epcohs:", e)
+        train_output = train(model, optimizer)
+        test_output = test(model)
+        scheduler.step(test_output['loss'])
+        print("Training Outputs: ")
+        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(train_output['loss'], train_output['xent_l'], 1 - train_output['dice_l']))
+        print("-"*100)
+        print("Validation Outputs: ")
+        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(test_output['loss'], test_output['xent_l'], 1-test_output['dice_l']))
+        # logging
+        wandb.log({"Train_total_loss": train_output['loss'], "Val_total_loss": test_output['loss']}, step=e)
+        wandb.log({"Train_BCE_loss": train_output['xent_l'], "Val_BCE_loss": test_output['xent_l']}, step=e)
+        wandb.log({"Train_dice_score": 1-train_output['dice_l'], "Val_dice_score": 1-test_output['dice_l']}, step=e)
+        wandb.log({"Learning rate": optimizer.param_groups[0]["lr"]}, step=e)
+        if e%10==0:
+            # threshold sigmoid output with 0.5
+            pred_thr = np.where(test_output['pred']>0.5, 1.0, 0.0)
+            # sample a dataset from the batch for visualization purpose
+            imgs = [test_output['imgs'][0, 0, :, :], test_output['segs'][0, 0, :, :], pred_thr[0, 0, :, :]]
+            captions = ['Gland Image', 'Masking', 'Prediction']
+            fig = utils.plot_comparison(imgs, captions, plot=False, n_col=len(imgs),
+                                  figsize=(12, 12), cmap='gray')
+            wandb.log({"Validation Dataset Output Sample": wandb.Image(fig)}, step=e)
 
-    if e%10==0:
-        # threshold sigmoid output with 0.5
-        pred_thr = np.where(test_output['pred']>0.5, 1.0, 0.0)
-        # sample a dataset from the batch for visualization purpose
-        imgs = [test_output['imgs'][0, 0, :, :], test_output['segs'][0, 0, :, :], pred_thr[0, 0, :, :]]
-        captions = ['Gland Image', 'Masking', 'Prediction']
-        fig = utils.plot_comparison(imgs, captions, plot=False, n_col=len(imgs),
-                              figsize=(12, 12), cmap='gray')
-        wandb.log({"Validation Dataset Output Sample": wandb.Image(fig)}, step=e)
+        # save model
+        weights_dir = '/home/kevinteng/Desktop/weights/'
+        if not os.path.exists(weights_dir):
+            os.makedirs(weights_dir)
+        base_path = os.path.split(weights_dir)[0]
+        if test_output['loss'] < current_total_loss:
+            current_total_loss = test_output['loss']
+            torch.save(model.state_dict(), weights_dir+'best_loss_{}.pth'.format(e))
+            wandb.save(os.path.join(weights_dir, 'best_loss_{}.pth'.format(e)), base_path=base_path)
+        if (1-test_output['dice_l']) > current_dice_score:
+            current_dice_score = 1-test_output['dice_l']
+            torch.save(model.state_dict(), weights_dir+'best_dice_{}.pth'.format(e))
+            wandb.save(os.path.join(weights_dir, 'best_dice_{}.pth'.format(e)), base_path=base_path)
+        print()
 
-    # save model
-    weights_dir = '/home/kevinteng/Desktop/weights/'
-    if not os.path.exists(weights_dir):
-        os.makedirs(weights_dir)
-    base_path = os.path.split(weights_dir)[0]
-    if test_output['loss'] < current_total_loss:
-        current_total_loss = test_output['loss']
-        torch.save(model.state_dict(), weights_dir+'best_loss_{}.pth'.format(e))
-        wandb.save(os.path.join(weights_dir, 'best_loss_{}.pth'.format(e)), base_path=base_path)
-    if (1-test_output['dice_l']) > current_dice_score:
-        current_dice_score = 1-test_output['dice_l']
-        torch.save(model.state_dict(), weights_dir+'best_dice_{}.pth'.format(e))
-        wandb.save(os.path.join(weights_dir, 'best_dice_{}.pth'.format(e)), base_path=base_path)
-    print()
+    print("Model training runtime: {} mins".format((time.time() - start)/60.0))
 
-print("Model training runtime: {} mins".format((time.time() - start)/60.0))
 
+if __name__ == '__main__':
+    main()
 
 
