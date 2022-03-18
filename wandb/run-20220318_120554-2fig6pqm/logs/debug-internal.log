@@ -1,0 +1,1373 @@
+2022-03-18 12:05:54,832 INFO    MainThread:18096 [internal.py:wandb_internal():95] W&B internal server running at pid: 18096, started at: 2022-03-18 12:05:54.832708
+2022-03-18 12:05:54,833 INFO    WriterThread:18096 [datastore.py:open_for_write():77] open: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/run-2fig6pqm.wandb
+2022-03-18 12:05:54,835 DEBUG   SenderThread:18096 [sender.py:send():235] send: header
+2022-03-18 12:05:54,835 DEBUG   SenderThread:18096 [sender.py:send():235] send: run
+2022-03-18 12:05:55,293 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: check_version
+2022-03-18 12:05:55,295 INFO    SenderThread:18096 [dir_watcher.py:__init__():169] watching files in: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files
+2022-03-18 12:05:55,296 INFO    SenderThread:18096 [sender.py:_start_run_threads():815] run started: 2fig6pqm with start time 1647576354
+2022-03-18 12:05:55,296 DEBUG   SenderThread:18096 [sender.py:send():235] send: summary
+2022-03-18 12:05:55,297 INFO    SenderThread:18096 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-18 12:05:55,297 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: check_version
+2022-03-18 12:05:55,851 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: run_start
+2022-03-18 12:05:56,296 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/wandb-summary.json
+2022-03-18 12:05:57,294 DEBUG   HandlerThread:18096 [meta.py:__init__():37] meta init
+2022-03-18 12:05:57,294 DEBUG   HandlerThread:18096 [meta.py:__init__():51] meta init done
+2022-03-18 12:05:57,294 DEBUG   HandlerThread:18096 [meta.py:probe():211] probe
+2022-03-18 12:05:57,300 DEBUG   HandlerThread:18096 [meta.py:_setup_git():201] setup git
+2022-03-18 12:05:57,313 DEBUG   HandlerThread:18096 [meta.py:_setup_git():208] setup git done
+2022-03-18 12:05:57,314 DEBUG   HandlerThread:18096 [meta.py:_save_pip():55] save pip
+2022-03-18 12:05:57,314 DEBUG   HandlerThread:18096 [meta.py:_save_pip():69] save pip done
+2022-03-18 12:05:57,314 DEBUG   HandlerThread:18096 [meta.py:probe():249] probe done
+2022-03-18 12:05:57,317 DEBUG   SenderThread:18096 [sender.py:send():235] send: files
+2022-03-18 12:05:57,318 INFO    SenderThread:18096 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-18 12:05:57,321 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:05:57,321 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:05:57,593 DEBUG   SenderThread:18096 [sender.py:send():235] send: telemetry
+2022-03-18 12:05:58,096 INFO    Thread-11 :18096 [upload_job.py:push():137] Uploaded file /tmp/tmp6yo2q6nzwandb/1jhuh05q-wandb-metadata.json
+2022-03-18 12:05:58,296 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:05:58,296 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/requirements.txt
+2022-03-18 12:05:58,296 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/wandb-metadata.json
+2022-03-18 12:06:02,297 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:04,297 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:06,300 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:08,300 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:10,301 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:12,302 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:12,620 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:06:12,620 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:06:14,302 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:16,303 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:18,304 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:20,304 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:22,308 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:24,308 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:26,036 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:06:26,309 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:26,309 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/config.yaml
+2022-03-18 12:06:27,914 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:06:27,914 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:06:28,309 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:30,310 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:32,311 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:34,311 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:36,312 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:38,312 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:40,313 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:42,313 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:43,349 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:06:43,349 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:06:44,314 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:46,315 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:48,315 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:50,316 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:52,316 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:54,317 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:56,025 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:06:56,317 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:58,318 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:06:58,665 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:06:58,665 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:07:00,319 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:02,319 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:04,320 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:06,320 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:08,321 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:10,321 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:12,322 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:14,097 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:07:14,097 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:07:14,323 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:16,324 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:18,325 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:20,325 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:22,326 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:24,326 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:26,327 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:26,348 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:07:28,328 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:29,393 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:07:29,393 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:07:30,332 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:32,333 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:34,334 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:36,335 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:38,335 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:40,336 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:42,337 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:44,337 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:44,684 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:07:44,684 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:07:46,338 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:48,338 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:50,339 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:52,340 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:54,340 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:56,341 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:56,727 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:07:58,341 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:07:59,975 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:07:59,975 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:08:00,342 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:02,342 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:04,343 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:06,344 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:08,344 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:10,345 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:12,346 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:14,346 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:15,253 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:08:15,253 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:08:16,347 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:18,347 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:20,347 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:22,350 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:24,351 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:26,352 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:27,117 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:08:28,352 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:30,353 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:30,529 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:08:30,530 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:08:32,355 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:34,356 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:36,356 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:38,357 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:40,359 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:42,358 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:44,359 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:45,800 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:08:45,800 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:08:46,359 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:48,360 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:50,361 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:52,361 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:54,362 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:56,363 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:08:57,409 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:08:58,363 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:00,364 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:01,100 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:09:01,101 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:09:02,364 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:04,365 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:06,365 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:08,366 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:10,367 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:12,367 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:14,368 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:16,368 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:16,524 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:09:16,524 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:09:18,369 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:20,370 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:22,370 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:24,371 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:26,371 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:27,801 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:09:28,372 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:30,373 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:31,800 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:09:31,800 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:09:32,377 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:34,378 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:36,378 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:38,379 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:40,379 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:42,380 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:44,381 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:46,382 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:47,073 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:09:47,073 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:09:48,383 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:50,383 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:52,384 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:54,385 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:56,385 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:09:58,135 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:09:58,386 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:00,386 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:02,349 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:10:02,350 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:10:02,387 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:04,387 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:06,388 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:08,388 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:10,389 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:12,390 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:14,390 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:16,391 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:17,898 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:10:17,898 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:10:18,391 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:20,392 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:22,393 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:24,394 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:26,394 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:28,395 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:28,466 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:10:30,395 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:32,396 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:33,201 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:10:33,202 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:10:34,397 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:36,397 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:38,399 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:40,398 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:42,399 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:44,399 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:46,400 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:48,400 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:48,462 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:10:48,462 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:10:50,401 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:52,401 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:54,402 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:56,403 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:58,403 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:10:58,867 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:11:00,404 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:02,404 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:03,735 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:11:03,735 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:11:04,405 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:06,406 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:08,406 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:10,407 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:12,407 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:14,408 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:16,418 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:18,430 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:19,417 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:11:19,417 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:11:20,431 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:22,431 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:24,432 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:26,436 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:28,436 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:29,208 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:11:30,437 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:32,438 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:34,439 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:34,677 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:11:34,677 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:11:36,440 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:38,441 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:40,441 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:42,442 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:44,443 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:46,446 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:48,447 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:49,943 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:11:49,944 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:11:50,448 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:52,449 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:54,449 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:56,449 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:58,450 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:11:59,689 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:12:00,462 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:02,463 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:04,463 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:05,221 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:12:05,221 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:12:06,464 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:08,465 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:10,465 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:12,466 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:14,466 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:16,467 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:18,467 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:20,468 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:20,484 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:12:20,484 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:12:22,469 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:24,469 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:26,470 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:28,470 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:30,007 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:12:30,471 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:32,471 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:34,472 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:35,795 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:12:35,795 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:12:36,473 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:38,475 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:40,475 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:42,476 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:44,478 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:46,478 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:48,479 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:50,479 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:51,075 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:12:51,075 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:12:52,480 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:54,480 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:56,481 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:12:58,481 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:00,359 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:13:00,482 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:02,483 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:04,483 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:06,352 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:13:06,352 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:13:06,484 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:08,484 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:10,485 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:12,485 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:14,486 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:16,489 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:18,489 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:20,490 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:21,609 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:13:21,609 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:13:22,490 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:24,496 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:26,497 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:28,497 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:30,498 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:30,739 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:13:32,498 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:34,499 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:36,499 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:36,878 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:13:36,879 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:13:38,500 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:40,501 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:42,501 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:44,502 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:46,502 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:48,503 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:50,503 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:52,152 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:13:52,152 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:13:52,504 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:54,505 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:56,506 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:13:58,507 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:00,508 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:01,091 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:14:02,516 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:04,516 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:06,517 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:07,430 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:14:07,430 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:14:08,517 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:10,518 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:12,519 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:14,519 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:16,520 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:18,528 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:20,528 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:22,529 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:22,695 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:14:22,696 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:14:24,530 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:26,530 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:28,532 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:30,532 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:31,430 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:14:32,533 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:34,533 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:36,534 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:37,991 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:14:37,991 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:14:38,534 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:40,535 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:42,535 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:44,536 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:46,536 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:48,537 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:50,538 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:52,540 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:53,284 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:14:53,285 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:14:54,541 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:56,541 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:14:58,542 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:00,543 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:01,836 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:15:02,543 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:04,544 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:06,544 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:08,545 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:08,593 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:15:08,593 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:15:10,547 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:12,547 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:14,548 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:16,549 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:18,549 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:20,550 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:22,553 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:23,896 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:15:23,896 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:15:24,553 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:26,554 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:28,554 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:30,555 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:32,189 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:15:32,556 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:34,556 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:36,557 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:38,565 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:39,176 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:15:39,176 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:15:40,565 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:42,566 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:44,566 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:46,567 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:48,568 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:50,568 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:52,569 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:54,569 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:54,676 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:15:54,676 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:15:56,580 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:15:58,580 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:00,581 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:02,573 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:16:02,581 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:04,582 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:06,583 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:08,584 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:10,574 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:16:10,574 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:16:10,585 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:12,585 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:14,590 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:16,591 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:18,594 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:20,595 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:22,596 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:24,596 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:25,868 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:16:25,868 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:16:26,597 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:28,597 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:30,598 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:32,599 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:32,956 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:16:34,599 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:36,620 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:38,621 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:40,621 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:41,169 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:16:41,170 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:16:42,622 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:44,622 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:46,623 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:48,624 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:50,624 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:52,632 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:54,633 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:56,636 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:16:56,767 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:16:56,767 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:16:58,636 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:00,637 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:02,637 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:03,432 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:17:04,638 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:06,638 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:08,639 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:10,640 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:12,078 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:17:12,078 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:17:12,640 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:14,641 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:16,641 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:18,642 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:20,642 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:22,643 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:24,644 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:26,644 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:27,367 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:17:27,368 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:17:28,645 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:30,645 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:32,646 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:33,858 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:17:34,646 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:36,647 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:38,648 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:40,648 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:42,649 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:42,655 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:17:42,655 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:17:44,650 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:46,651 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:48,651 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:50,652 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:52,653 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:54,653 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:56,653 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:17:58,031 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:17:58,031 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:17:58,654 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:00,655 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:02,655 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:04,201 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:18:04,656 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:06,656 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:08,657 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:10,658 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:12,664 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:13,316 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:18:13,316 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:18:14,666 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:16,666 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:18,667 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:20,667 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:22,668 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:24,668 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:26,669 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:28,604 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:18:28,604 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:18:28,670 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:30,670 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:32,671 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:34,584 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:18:34,671 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:36,676 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:38,678 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:40,678 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:42,684 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:44,680 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:44,696 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:18:44,696 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:18:46,680 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:48,681 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:50,681 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:52,682 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:54,683 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:56,683 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:18:58,684 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:00,684 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:01,288 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:19:01,288 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:19:02,685 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:04,685 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:05,034 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:19:06,686 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:08,687 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:10,687 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:12,688 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:14,688 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:16,657 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:19:16,657 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:19:16,689 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:18,690 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:20,690 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:22,691 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:24,691 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:26,692 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:28,692 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:30,693 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:32,693 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:34,694 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:35,425 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:19:35,985 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:19:35,985 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:19:36,694 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:38,695 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:40,696 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:42,696 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:44,697 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:46,704 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:48,704 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:50,705 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:51,549 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:19:51,549 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:19:52,706 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:54,706 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:56,707 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:19:58,708 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:00,708 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:02,709 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:04,712 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:05,804 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:20:06,710 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:06,847 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:20:06,847 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:20:08,710 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:10,716 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:12,716 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:14,717 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:16,719 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:18,720 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:20,720 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:22,228 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:20:22,228 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:20:22,721 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:24,722 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:26,724 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:28,724 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:30,728 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:32,729 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:34,729 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:35,730 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:36,090 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:20:36,730 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:37,518 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:20:37,518 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:20:37,730 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:38,730 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:39,731 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:40,731 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:41,731 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:42,732 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:43,732 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:44,736 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:45,736 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:46,736 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:48,737 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:49,737 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:50,737 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:52,738 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:52,866 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:20:52,866 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:20:53,738 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:54,739 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:55,739 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:56,739 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:57,740 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:58,740 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:20:59,740 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:00,740 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:02,741 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:03,741 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:04,741 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:06,445 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:21:06,742 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:07,742 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:08,142 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:21:08,143 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:21:08,743 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:09,743 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:10,743 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:12,744 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:13,744 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:15,745 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:16,745 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:17,746 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:19,746 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:21,747 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:23,709 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:21:23,709 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:21:23,747 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:25,748 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:27,748 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:29,749 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:31,750 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:33,750 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:35,751 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:36,828 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:21:37,752 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:38,964 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:21:38,964 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:21:39,752 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:40,738 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: pause
+2022-03-18 12:21:40,738 INFO    HandlerThread:18096 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-18 12:21:40,756 DEBUG   SenderThread:18096 [sender.py:send():235] send: stats
+2022-03-18 12:21:41,753 INFO    Thread-7  :18096 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220318_120554-2fig6pqm/files/output.log
+2022-03-18 12:21:54,245 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:21:54,245 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:22:09,532 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:22:09,533 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:22:24,856 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:22:24,856 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:22:40,173 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:22:40,174 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:22:55,473 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:22:55,473 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:23:11,205 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:23:11,205 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:23:26,586 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:23:26,586 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:23:42,196 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:23:42,196 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:23:57,494 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:23:57,494 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:24:12,862 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:24:12,863 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:24:28,135 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:24:28,136 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:24:43,479 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:24:43,479 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:24:58,827 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:24:58,828 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:25:14,118 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:25:14,118 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:25:29,417 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:25:29,417 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:25:44,699 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:25:44,699 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:25:59,990 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:25:59,990 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:26:15,298 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:26:15,299 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:26:30,822 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:26:30,823 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:26:46,134 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:26:46,134 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:27:01,432 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:27:01,432 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:27:16,825 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:27:16,825 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:27:32,139 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:27:32,140 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:27:47,473 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:27:47,474 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:28:02,803 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:28:02,803 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:28:18,382 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:28:18,383 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:28:33,717 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:28:33,717 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:28:48,984 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:28:48,984 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:29:04,325 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:29:04,325 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:29:19,649 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:29:19,650 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:29:35,057 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:29:35,058 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:29:50,369 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:29:50,369 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:30:05,904 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:30:05,905 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:30:21,280 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:30:21,281 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:30:36,583 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:30:36,583 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:30:51,999 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:30:52,000 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:31:07,330 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:31:07,330 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:31:22,622 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:31:22,622 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:31:37,902 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:31:37,903 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:31:53,425 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:31:53,426 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:32:08,712 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:32:08,713 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:32:23,997 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:32:23,998 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:32:39,343 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:32:39,343 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:32:54,683 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:32:54,683 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:33:09,962 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:33:09,962 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:33:25,304 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:33:25,305 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:33:41,190 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:33:41,190 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:33:56,484 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:33:56,485 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:34:11,768 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:34:11,768 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:34:27,050 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:34:27,051 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:34:42,325 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:34:42,326 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:34:57,633 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:34:57,633 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:35:13,177 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:35:13,178 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:35:28,508 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:35:28,508 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:35:43,869 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:35:43,869 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:35:59,148 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:35:59,149 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:36:14,644 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:36:14,645 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:36:29,964 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:36:29,965 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:36:45,795 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:36:45,796 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:37:01,102 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:37:01,102 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:37:16,418 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:37:16,418 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:37:31,747 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:37:31,747 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:37:47,236 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:37:47,236 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:38:02,574 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:38:02,575 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:38:17,917 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:38:17,918 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:38:33,215 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:38:33,215 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:38:48,616 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:38:48,616 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:39:03,916 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:39:03,917 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:39:19,325 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:39:19,326 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:39:34,607 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:39:34,608 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:39:49,917 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:39:49,917 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:40:05,226 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:40:05,227 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:40:20,820 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:40:20,821 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:40:36,166 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:40:36,167 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:40:51,483 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:40:51,483 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:41:06,885 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:41:06,886 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:41:22,184 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:41:22,184 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:41:37,492 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:41:37,492 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:41:52,801 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:41:52,801 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:42:08,097 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:42:08,097 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:42:23,448 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:42:23,448 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:42:38,878 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:42:38,878 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:42:54,199 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:42:54,199 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:43:09,514 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:43:09,515 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:43:24,820 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:43:24,821 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:43:40,141 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:43:40,142 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:43:55,557 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:43:55,557 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:44:11,140 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:44:11,141 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:44:26,431 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:44:26,431 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:44:41,988 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:44:41,989 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:44:57,270 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:44:57,270 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:45:12,840 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:45:12,841 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:45:28,175 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:45:28,175 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:45:43,482 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:45:43,482 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:45:58,774 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:45:58,775 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:46:14,072 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:46:14,073 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:46:29,394 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:46:29,394 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:46:44,683 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:46:44,684 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:46:59,975 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:46:59,975 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:47:15,297 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:47:15,298 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:47:30,592 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:47:30,592 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:47:45,989 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:47:45,989 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:48:01,291 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:48:01,291 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:48:16,628 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:48:16,629 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:48:31,946 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:48:31,946 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:48:47,231 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:48:47,231 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:49:02,528 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:49:02,529 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:49:17,892 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:49:17,893 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:49:33,274 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:49:33,274 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:49:48,579 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:49:48,579 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:50:03,899 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:50:03,900 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:50:19,481 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:50:19,482 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:50:34,801 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:50:34,802 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:50:50,086 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:50:50,087 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:51:05,370 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:51:05,371 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:51:20,674 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:51:20,674 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:51:35,962 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:51:35,962 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:51:51,272 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:51:51,273 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:52:06,584 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:52:06,585 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:52:22,158 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:52:22,159 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:52:37,525 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:52:37,525 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:52:52,909 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:52:52,909 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:53:08,193 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:53:08,194 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:53:23,503 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:53:23,503 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:53:38,804 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:53:38,805 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:53:54,085 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:53:54,085 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:54:09,427 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:54:09,428 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:54:24,756 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:54:24,756 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:54:40,059 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:54:40,060 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:54:55,382 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:54:55,383 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:55:11,272 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:55:11,273 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:55:26,792 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:55:26,793 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:55:42,064 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:55:42,065 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:55:57,357 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:55:57,357 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:56:12,752 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:56:12,752 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:56:28,050 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:56:28,051 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:56:43,442 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:56:43,443 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:56:58,742 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:56:58,742 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:57:14,050 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:57:14,051 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:57:29,376 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:57:29,377 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:57:44,709 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:57:44,710 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:58:00,025 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:58:00,026 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:58:15,353 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:58:15,353 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:58:30,659 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:58:30,659 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:58:46,054 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:58:46,055 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:59:01,352 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:59:01,353 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:59:16,622 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:59:16,623 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:59:31,958 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 12:59:31,959 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 12:59:51,959 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:00:00,665 WARNING FileStreamThread:18096 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/glaseg/Gland_Seg/2fig6pqm/file_stream. func: <bound method Session.post of <requests.sessions.Session object at 0x7f130562fc18>>, args: ('https://api.wandb.ai/files/glaseg/Gland_Seg/2fig6pqm/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-18 13:00:06,165 ERROR   SenderThread:18096 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 311, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 272, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-03-18 13:00:11,959 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:00:14,298 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:00:31,960 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:00:48,476 ERROR   SenderThread:18096 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 311, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 272, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-03-18 13:00:51,960 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:01:00,190 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:01,747 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:04,605 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:11,961 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:01:11,962 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:27,404 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:01:27,405 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:42,675 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:01:42,675 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:01:57,981 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:01:57,982 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:02:13,288 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:02:13,289 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:02:28,664 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:02:28,664 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:02:44,344 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:02:44,344 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:02:59,636 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:02:59,637 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:03:14,952 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:03:14,953 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:03:30,281 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:03:30,282 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:03:45,801 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:03:45,802 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:04:01,074 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:04:01,075 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:04:16,405 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:04:16,405 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:04:31,685 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:04:31,686 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:04:46,963 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:04:46,963 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:05:02,295 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:05:02,295 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:05:17,587 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:05:17,588 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:05:33,148 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:05:33,148 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:05:48,482 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:05:48,483 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:06:03,793 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:06:03,794 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:06:19,172 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:06:19,172 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:06:34,475 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:06:34,475 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:06:49,780 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:06:49,780 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:07:05,709 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:07:05,709 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:07:21,014 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:07:21,015 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:07:40,632 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:07:40,632 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:07:55,915 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:07:55,916 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:08:12,371 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:08:12,372 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:08:27,918 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:08:27,919 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:08:43,251 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:08:43,252 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:08:58,572 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:08:58,573 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:09:13,884 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:09:13,884 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:09:29,192 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:09:29,192 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:09:44,514 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:09:44,514 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:09:59,814 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:09:59,815 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:10:15,110 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:10:15,111 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:10:30,391 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:10:30,392 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:10:45,914 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:10:45,915 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:11:01,280 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:11:01,280 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:11:16,614 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:11:16,614 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:11:31,905 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:11:31,905 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:11:47,184 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:11:47,185 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:12:02,471 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:12:02,472 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:12:17,857 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:12:17,858 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:12:33,145 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:12:33,145 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:12:48,433 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:12:48,433 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:13:03,801 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:13:03,801 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:13:19,110 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:13:19,110 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:13:34,446 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:13:34,447 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:13:49,718 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:13:49,719 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:14:05,019 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:14:05,019 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:14:20,303 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:14:20,304 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:14:35,853 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:14:35,853 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:14:51,274 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:14:51,274 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:15:06,606 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:15:06,606 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:15:21,960 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:15:21,961 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:15:37,358 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:15:37,359 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:15:52,711 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:15:52,712 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:16:08,278 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:16:08,278 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:16:23,802 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:16:23,803 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:16:39,167 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:16:39,167 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:16:54,467 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:16:54,467 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:17:09,778 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:17:09,779 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:17:25,102 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:17:25,103 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:17:40,990 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:17:40,990 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:17:56,275 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:17:56,276 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:18:11,811 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:18:11,812 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:18:27,107 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:18:27,107 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:18:42,391 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:18:42,392 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:18:57,689 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:18:57,690 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:19:12,987 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:19:12,988 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:19:28,260 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:19:28,261 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:19:43,549 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:19:43,549 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:19:58,857 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:19:58,858 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:20:14,147 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:20:14,148 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:20:29,428 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:20:29,428 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:20:44,905 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:20:44,905 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:21:00,202 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:21:00,202 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:21:15,764 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:21:15,765 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:21:31,058 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:21:31,058 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:21:46,546 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:21:46,546 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:22:01,869 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:22:01,869 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:22:17,163 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:22:17,164 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:22:32,440 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:22:32,441 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:22:47,756 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:22:47,756 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:23:03,105 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:23:03,105 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:23:18,405 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:23:18,406 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:23:33,690 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:23:33,691 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:23:48,978 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:23:48,978 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:24:04,254 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:24:04,254 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:24:19,939 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:24:19,940 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:24:35,921 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:24:35,922 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:24:51,215 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:24:51,215 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:25:06,570 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:25:06,570 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:25:21,960 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:25:21,960 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:25:37,253 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:25:37,253 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:25:52,579 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:25:52,580 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:26:07,874 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:26:07,874 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:26:23,434 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:26:23,435 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:26:38,729 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:26:38,730 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:26:54,128 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:26:54,128 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:27:09,433 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:27:09,433 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:27:24,743 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:27:24,744 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:27:40,036 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:27:40,036 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:27:55,391 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:27:55,392 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:28:11,122 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:28:11,123 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:28:26,414 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:28:26,415 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:28:41,698 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:28:41,699 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:28:57,053 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:28:57,053 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:29:12,344 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:29:12,344 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:29:27,670 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:29:27,670 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:29:42,979 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:29:42,979 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:29:58,276 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:29:58,277 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:30:13,650 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:30:13,651 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:30:29,195 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:30:29,195 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:30:44,482 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:30:44,483 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:30:59,791 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:30:59,791 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:31:15,093 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:31:15,094 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:31:30,387 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:31:30,388 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:31:45,744 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:31:45,744 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:32:01,252 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:32:01,252 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:32:16,533 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:32:16,534 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:32:31,829 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:32:31,829 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:32:47,124 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:32:47,124 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:33:02,423 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:33:02,424 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:33:17,723 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:33:17,724 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:33:33,241 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:33:33,242 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:33:48,572 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:33:48,573 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:34:03,979 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:34:03,979 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:34:19,243 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:34:19,244 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:34:34,547 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:34:34,547 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status
+2022-03-18 13:34:49,922 DEBUG   HandlerThread:18096 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-18 13:34:49,923 DEBUG   SenderThread:18096 [sender.py:send_request():249] send_request: stop_status

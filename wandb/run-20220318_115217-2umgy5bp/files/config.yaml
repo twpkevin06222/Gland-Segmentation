@@ -1,0 +1,49 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.6.9
+    start_time: 1647575543
+    t:
+      1:
+      - 1
+      - 41
+      3:
+      - 16
+      4: 3.6.9
+      5: 0.12.11
+      8:
+      - 1
+      - 5
+aug_prob:
+  desc: null
+  value: 0.5
+batch_size:
+  desc: null
+  value: 8
+csv:
+  desc: null
+  value: data.csv
+encoder_model:
+  desc: null
+  value: resnet18
+epochs:
+  desc: null
+  value: 200
+learning_rate:
+  desc: null
+  value: 1e-3
+n_class:
+  desc: null
+  value: 1
+optimizer:
+  desc: null
+  value: torch.optim.Adam
+patch_size:
+  desc: null
+  value: (512, 512)

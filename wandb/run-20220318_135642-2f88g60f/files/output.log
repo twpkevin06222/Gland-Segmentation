@@ -1,0 +1,82 @@
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+├─ResNetEncoder: 1-1                     [-1, 3, 512, 512]         --
+|    └─Conv2d: 2-1                       [-1, 64, 256, 256]        9,408
+|    └─BatchNorm2d: 2-2                  [-1, 64, 256, 256]        128
+|    └─ReLU: 2-3                         [-1, 64, 256, 256]        --
+|    └─MaxPool2d: 2-4                    [-1, 64, 128, 128]        --
+|    └─Sequential: 2-5                   [-1, 64, 128, 128]        --
+|    |    └─BasicBlock: 3-1              [-1, 64, 128, 128]        73,984
+|    |    └─BasicBlock: 3-2              [-1, 64, 128, 128]        73,984
+|    └─Sequential: 2-6                   [-1, 128, 64, 64]         --
+|    |    └─BasicBlock: 3-3              [-1, 128, 64, 64]         230,144
+|    |    └─BasicBlock: 3-4              [-1, 128, 64, 64]         295,424
+|    └─Sequential: 2-7                   [-1, 256, 32, 32]         --
+|    |    └─BasicBlock: 3-5              [-1, 256, 32, 32]         919,040
+|    |    └─BasicBlock: 3-6              [-1, 256, 32, 32]         1,180,672
+|    └─Sequential: 2-8                   [-1, 512, 16, 16]         --
+|    |    └─BasicBlock: 3-7              [-1, 512, 16, 16]         3,673,088
+|    |    └─BasicBlock: 3-8              [-1, 512, 16, 16]         4,720,640
+├─UnetDecoder: 1-2                       [-1, 16, 512, 512]        --
+|    └─Identity: 2-9                     [-1, 512, 16, 16]         --
+|    └─ModuleList: 2                     []                        --
+|    |    └─DecoderBlock: 3-9            [-1, 256, 32, 32]         2,360,320
+|    |    └─DecoderBlock: 3-10           [-1, 128, 64, 64]         590,336
+|    |    └─DecoderBlock: 3-11           [-1, 64, 128, 128]        147,712
+|    |    └─DecoderBlock: 3-12           [-1, 32, 256, 256]        46,208
+|    |    └─DecoderBlock: 3-13           [-1, 16, 512, 512]        6,976
+├─SegmentationHead: 1-3                  [-1, 1, 512, 512]         --
+|    └─Conv2d: 2-10                      [-1, 1, 512, 512]         145
+|    └─Identity: 2-11                    [-1, 1, 512, 512]         --
+|    └─Activation: 2-12                  [-1, 1, 512, 512]         --
+|    |    └─Identity: 3-14               [-1, 1, 512, 512]         --
+==========================================================================================
+Total params: 14,328,209
+Trainable params: 14,328,209
+Non-trainable params: 0
+Total mult-adds (G): 9.46
+==========================================================================================
+Input size (MB): 3.00
+Forward/backward pass size (MB): 186.00
+Params size (MB): 54.66
+Estimated Total Size (MB): 243.66
+==========================================================================================
+Epcohs: 1
+Training...
+  0%|          | 0/3 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-6c34b8e2df23>", line 1, in <module>
+    runfile('/home/kevinteng/Desktop/Gland-Segmentation/train.py', wdir='/home/kevinteng/Desktop/Gland-Segmentation')
+  File "/snap/pycharm-professional/278/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/snap/pycharm-professional/278/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/train.py", line 137, in <module>
+    train_output = train(model, optimizer)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/train.py", line 73, in train
+    pred = model(imgs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/segmentation_models_pytorch/base/model.py", line 16, in forward
+    decoder_output = self.decoder(*features)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/segmentation_models_pytorch/unet/decoder.py", line 119, in forward
+    x = decoder_block(x, skip)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/segmentation_models_pytorch/unet/decoder.py", line 41, in forward
+    x = self.conv2(x)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/batchnorm.py", line 178, in forward
+    self.eps,
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/functional.py", line 2282, in batch_norm
+    input, weight, bias, running_mean, running_var, training, momentum, eps, torch.backends.cudnn.enabled
