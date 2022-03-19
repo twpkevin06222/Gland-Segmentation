@@ -1,6 +1,10 @@
 # Gland-Segmentation
 ## [GlaS@MICCAI'2015: Gland Segmentation Challenge Contest](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/)
 
+<p align="center">
+<img fig/glas_img.png" width="600" height="300">
+</p>
+
 In this challenge, participants are encouraged to run their gland segmentation algorithms on images of Hematoxylin and Eosin (H&E) stained slides, consisting of a variety of histologic grades. The dataset is provided together with ground truth annotations by expert pathologists. The participants are asked to develop and optimise their algorithms on the provided training dataset, and validate their algorithm on the test dataset.
 
 ## Structure
@@ -25,7 +29,7 @@ These files contains helper functions or module for visualisation, model traning
 
 `train.py` is the main python file for model training. The training runs are all recorded in `Weights & Biases` cloud storage. 
 
-### Third Party Library
+## Third Party Library
 - Segmentaion models API in PyTorch by [Pavel Yakubovskiy](https://github.com/qubvel/segmentation_models.pytorch): `$ pip install segmentation-models-pytorch`
 - Data loader module for medical images by [MIC-DKFZ](https://github.com/MIC-DKFZ/batchgenerators): `$ pip install --upgrade batchgenerators
 `
