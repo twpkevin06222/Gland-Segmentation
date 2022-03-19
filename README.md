@@ -2,7 +2,7 @@
 ## [GlaS@MICCAI'2015: Gland Segmentation Challenge Contest](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/)
 
 <p align="center">
-<img src="fig/glas_img.png" width="800" height="300">
+<img src="fig/glas_img.png" width="800" height="250">
 </p>
 
 In this challenge, participants are encouraged to run their gland segmentation algorithms on images of Hematoxylin and Eosin (H&E) stained slides, consisting of a variety of histologic grades. The dataset is provided together with ground truth annotations by expert pathologists. The participants are asked to develop and optimise their algorithms on the provided training dataset, and validate their algorithm on the test dataset.
