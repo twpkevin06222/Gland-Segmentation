@@ -1,1 +1,0 @@
-{"Train_total_loss": 0.6364715695381165, "Val_total_loss": 0.6703667640686035, "_timestamp": 1647583074, "_runtime": 47, "Train_BCE_loss": 0.46885406970977783, "Val_BCE_loss": 0.4996679723262787, "Train_dice_score": 0.16761745512485504, "Val_dice_score": 0.17069877684116364, "_step": 8}
