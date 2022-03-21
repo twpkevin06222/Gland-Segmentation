@@ -31,12 +31,13 @@ These files contains helper functions or module for visualisation, model traning
 
 `train.py` is the main python file for model training. The training runs are all recorded in `Weights & Biases` cloud storage. 
 
+`model.py` contains experimental models under testing phase.
 
 ## Results 
 The metrics for segmentated mask evaluation is precision, recall, F1 score, dice score and Hausdorff Distance. The output results are evaluated on pixel segmentation (binary mode) instead of gland-wise segmentation. 
 
 |   | Precision  | Recall | F1 Score | Dice Score | Hausdorff Distance |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | testA  | 0.93  | 0.93 | 0.93 | 0.93 | 76.22 |
 | testB  | 0.90  | 0.90 | 0.90 | 0.91 | 62.36 |
 
