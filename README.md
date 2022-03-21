@@ -18,7 +18,9 @@ In this challenge, participants are encouraged to run their gland segmentation a
 
 `dataloader.ipynb` provides description about the data loading pipeline for training data set and testing data set. This includes data augmentation and data preprocessing inside the data loader pipeline. 
 
-`inference.ipynb` attempts to provide an overview about the model used, hyperparameters, metrics result and visualisation of the inputs. 
+`inference_testB.ipynb` attempts to provide an overview about the model used, hyperparameters, metrics result and visualisation of the inputs. This notebook computes the inference on data set testB.
+
+`inference_testA.ipynb` This notebook computes the inference on testA.
 
 ### Python Files
 These files contains helper functions or module for visualisation, model traning, evaluation and metrics. 
@@ -32,4 +34,34 @@ These files contains helper functions or module for visualisation, model traning
 ## Third Party Library
 - Segmentaion models API in PyTorch by [Pavel Yakubovskiy](https://github.com/qubvel/segmentation_models.pytorch): `$ pip install segmentation-models-pytorch`
 - Data loader module for medical images by [MIC-DKFZ](https://github.com/MIC-DKFZ/batchgenerators): `$ pip install --upgrade batchgenerators
-`
+
+## Results 
+The metrics for segmentated mask evaluation is precision, recall, F1 score, dice score and Hausdorff Distance. The output results are evaluated on pixel segmentation (binary mode) instead of gland-wise segmentation. 
+
+|   | Precision  | Recall | F1 Score | Dice Score | Hausdorff Distance |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| testA  | 0.93  | 0.93 | 0.93 | 0.93 | 76.22 |
+| testB  | 0.90  | 0.90 | 0.90 | 0.91 | 62.36 |
+
+## Visualisation 
+Binary Segmentation of ground truth and predicted masking. 
+<p align="center">
+<img src="fig/binary_segmentation.png" width="800" height="250">
+</p>
+Overlay segmentation plot of ground truth and predicted masking. 
+<p align="center">
+<img src="fig/overlay_segmentation.png" width="800" height="250">
+</p>
+Overlay boundary plot of ground truth and predicted masking for Hausdorff Distance.  
+<p align="center">
+<img src="fig/hausdorff.png" width="600" height="600">
+</p>
+
+## Future Work
+Gland-wise segmentation of ground truth and predicted masking is possible. The evaluation metric for object dice score, object F1 score and object Hausdorff Distance reserved for future investigation. 
+
+<p align="center">
+<img src="fig/gland_wise.png" width="800" height="250">
+</p>
+ 
+
