@@ -18,7 +18,7 @@ In this challenge, participants are encouraged to run their gland segmentation a
 
 `dataloader.ipynb` provides description about the data loading pipeline for training data set and testing data set. This includes data augmentation and data preprocessing inside the data loader pipeline. 
 
-`inference_testB.ipynb` attempts to provide an overview about the model used, hyperparameters, metrics result and visualisation of the inputs. This notebook computes the inference on data set testB.
+`inference_testB.ipynb` *attempts to provide an overview about the model used, hyperparameters, metrics result and visualisation of the inputs. This notebook computes the inference on data set testB. (Please view this notebook for primary reference on inferece). 
 
 `inference_testA.ipynb` This notebook computes the inference on testA.
 
@@ -31,9 +31,6 @@ These files contains helper functions or module for visualisation, model traning
 
 `train.py` is the main python file for model training. The training runs are all recorded in `Weights & Biases` cloud storage. 
 
-## Third Party Library
-- Segmentaion models API in PyTorch by [Pavel Yakubovskiy](https://github.com/qubvel/segmentation_models.pytorch): `$ pip install segmentation-models-pytorch`
-- Data loader module for medical images by [MIC-DKFZ](https://github.com/MIC-DKFZ/batchgenerators): `$ pip install --upgrade batchgenerators
 
 ## Results 
 The metrics for segmentated mask evaluation is precision, recall, F1 score, dice score and Hausdorff Distance. The output results are evaluated on pixel segmentation (binary mode) instead of gland-wise segmentation. 
@@ -63,5 +60,9 @@ Gland-wise segmentation of ground truth and predicted masking is possible. The e
 <p align="center">
 <img src="fig/gland_wise.png" width="800" height="250">
 </p>
- 
+
+## Requirements 
+### Third Party Library
+- Segmentaion models API in PyTorch by [Pavel Yakubovskiy](https://github.com/qubvel/segmentation_models.pytorch): `$ pip install segmentation-models-pytorch`
+- Data loader module for medical images by [MIC-DKFZ](https://github.com/MIC-DKFZ/batchgenerators): `$ pip install --upgrade batchgenerators`
 
