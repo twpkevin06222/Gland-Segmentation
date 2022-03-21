@@ -20,7 +20,7 @@ def plot_comparison(input_img, caption=None, plot=True, save_path=None, save_nam
     :return: Plot of (n_row, n_col)
     '''
     print()
-    if caption!=None:
+    if caption is not None:
         assert len(caption) == len(input_img), "Caption length and input image length does not match"
     assert len(input_img) == n_col, "Error of input images or number of columns!"
 
@@ -29,13 +29,13 @@ def plot_comparison(input_img, caption=None, plot=True, save_path=None, save_nam
 
     for i in range(n_col):
         axes[i].imshow(np.squeeze(input_img[i]), cmap=cmap)
-        if caption!=None:
+        if caption is not None:
             axes[i].set_xlabel(caption[i], fontsize=captions_font)
         axes[i].set_xticks([])
         axes[i].set_yticks([])
 
     plt.tight_layout()
-    if save_path!=None:
+    if save_path is not None:
         plt.savefig(save_path+'{}.{}'.format(save_name, save_as), save_dpi=save_dpi)
     if plot:
         plt.show()
@@ -96,7 +96,7 @@ def overlay_mask(image, mask, colors=[(0, 1.0, 0)],
     return mask_image
 
 
-def overlay_boundary(image, mask, color=(0,1.0,0),
+def overlay_boundary(image, mask, color=(0, 1.0, 0),
                      mode='thick'):
     """
     Helper function to plot overlay image segmentation boundary of the
@@ -134,7 +134,8 @@ def plot_labels_color(label_im, cmap='tab20c'):
 
     return color_mask
 
-def min_max_norm(img, axis=(1,2)):
+
+def min_max_norm(img, axis=(1, 2)):
     """
     Channel-wise Min max normalization for
     images with input [batch size, slices, width, channel]
