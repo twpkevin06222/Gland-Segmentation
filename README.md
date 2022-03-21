@@ -41,6 +41,10 @@ The metrics for segmentated mask evaluation is precision, recall, F1 score, dice
 | testA  | 0.93  | 0.93 | 0.93 | 0.93 | 76.22 |
 | testB  | 0.90  | 0.90 | 0.90 | 0.91 | 62.36 |
 
+|Test A|Test B|
+|:--:|:--:|
+|![](fig/testA_boxplot.png)|![](fig/testB_boxplot.png)|
+
 ## Visualisation 
 Binary Segmentation of ground truth and predicted masking. 
 <p align="center">
