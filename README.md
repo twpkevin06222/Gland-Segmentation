@@ -66,3 +66,6 @@ Gland-wise segmentation of ground truth and predicted masking is possible. The e
 - Segmentaion models API in PyTorch by [Pavel Yakubovskiy](https://github.com/qubvel/segmentation_models.pytorch): `$ pip install segmentation-models-pytorch`
 - Data loader module for medical images by [MIC-DKFZ](https://github.com/MIC-DKFZ/batchgenerators): `$ pip install --upgrade batchgenerators`
 
+### Dependencies 
+`$ pip install requirements.txt`
+
