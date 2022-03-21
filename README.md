@@ -34,7 +34,7 @@ These files contains helper functions or module for visualisation, model traning
 `model.py` contains experimental models under testing phase.
 
 ## Results 
-The metrics for segmentated mask evaluation is precision, recall, F1 score, dice score and Hausdorff Distance. The output results are evaluated on pixel segmentation (binary mode) instead of gland-wise segmentation. 
+The metrics for segmentated mask evaluation is precision, recall, F1 score, dice score and Hausdorff Distance. The output results are evaluated on pixel-wise segmentation (binary mode) instead of gland-wise segmentation. 
 
 |   | Precision  | Recall | F1 Score | Dice Score | Hausdorff Distance |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
