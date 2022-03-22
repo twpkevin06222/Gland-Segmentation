@@ -1,1 +1,0 @@
-{"Train_total_loss": 1.224398136138916, "Val_total_loss": 1.1821808815002441, "_timestamp": 1647880990, "_runtime": 23, "Train_BCE_loss": 0.7355208396911621, "Val_BCE_loss": 0.7102779150009155, "Train_dice_loss": 0.4888772666454315, "Val_dice_loss": 0.4719029664993286, "Learning rate": 0.001, "_step": 3}
