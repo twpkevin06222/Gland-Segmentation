@@ -1,0 +1,43 @@
+2022-03-22 10:14:22,898 INFO    MainThread:17935 [internal.py:wandb_internal():95] W&B internal server running at pid: 17935, started at: 2022-03-22 10:14:22.898724
+2022-03-22 10:14:22,900 INFO    WriterThread:17935 [datastore.py:open_for_write():77] open: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/run-glqdujd5.wandb
+2022-03-22 10:14:22,902 DEBUG   SenderThread:17935 [sender.py:send():235] send: header
+2022-03-22 10:14:22,902 DEBUG   SenderThread:17935 [sender.py:send():235] send: run
+2022-03-22 10:14:23,241 INFO    SenderThread:17935 [dir_watcher.py:__init__():169] watching files in: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files
+2022-03-22 10:14:23,242 INFO    SenderThread:17935 [sender.py:_start_run_threads():815] run started: glqdujd5 with start time 1647915262
+2022-03-22 10:14:23,242 DEBUG   SenderThread:17935 [sender.py:send():235] send: summary
+2022-03-22 10:14:23,243 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: check_version
+2022-03-22 10:14:23,243 INFO    SenderThread:17935 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-22 10:14:23,244 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: check_version
+2022-03-22 10:14:23,447 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: run_start
+2022-03-22 10:14:24,265 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/wandb-summary.json
+2022-03-22 10:14:25,847 DEBUG   HandlerThread:17935 [meta.py:__init__():37] meta init
+2022-03-22 10:14:25,847 DEBUG   HandlerThread:17935 [meta.py:__init__():51] meta init done
+2022-03-22 10:14:25,847 DEBUG   HandlerThread:17935 [meta.py:probe():211] probe
+2022-03-22 10:14:25,855 DEBUG   HandlerThread:17935 [meta.py:_setup_git():201] setup git
+2022-03-22 10:14:25,873 DEBUG   HandlerThread:17935 [meta.py:_setup_git():208] setup git done
+2022-03-22 10:14:25,874 DEBUG   HandlerThread:17935 [meta.py:_save_pip():55] save pip
+2022-03-22 10:14:25,874 DEBUG   HandlerThread:17935 [meta.py:_save_pip():69] save pip done
+2022-03-22 10:14:25,874 DEBUG   HandlerThread:17935 [meta.py:probe():249] probe done
+2022-03-22 10:14:25,878 DEBUG   SenderThread:17935 [sender.py:send():235] send: files
+2022-03-22 10:14:25,878 INFO    SenderThread:17935 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-22 10:14:25,883 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 10:14:25,883 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: stop_status
+2022-03-22 10:14:26,169 DEBUG   SenderThread:17935 [sender.py:send():235] send: telemetry
+2022-03-22 10:14:26,265 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/requirements.txt
+2022-03-22 10:14:26,265 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/wandb-metadata.json
+2022-03-22 10:14:26,265 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_created():217] file/dir created: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/output.log
+2022-03-22 10:14:26,736 INFO    Thread-11 :17935 [upload_job.py:push():137] Uploaded file /tmp/tmppvhrjpg5wandb/1bppgg52-wandb-metadata.json
+2022-03-22 10:14:30,266 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/output.log
+2022-03-22 10:14:33,119 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: pause
+2022-03-22 10:14:33,119 INFO    HandlerThread:17935 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-22 10:14:33,193 DEBUG   SenderThread:17935 [sender.py:send():235] send: stats
+2022-03-22 10:14:34,267 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/output.log
+2022-03-22 10:14:41,170 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 10:14:41,171 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: stop_status
+2022-03-22 10:14:54,278 INFO    Thread-7  :17935 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/kevinteng/Desktop/Gland-Segmentation/wandb/run-20220322_101422-glqdujd5/files/config.yaml
+2022-03-22 10:14:56,482 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 10:14:56,482 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: stop_status
+2022-03-22 10:15:11,785 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 10:15:11,790 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: stop_status
+2022-03-22 10:15:27,453 DEBUG   HandlerThread:17935 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 10:15:27,453 DEBUG   SenderThread:17935 [sender.py:send_request():249] send_request: stop_status

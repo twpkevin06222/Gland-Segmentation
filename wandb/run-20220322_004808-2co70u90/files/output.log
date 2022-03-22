@@ -1,0 +1,77 @@
+
+  0%|          | 0/22 [00:00<?, ?it/s]
+===============================================================================================
+Layer (type:depth-idx)                        Output Shape              Param #
+===============================================================================================
+├─Encoder: 1-1                                [-1, 64, 512, 512]        --
+|    └─SeparableConv2d: 2-1                   [-1, 64, 512, 512]        --
+|    |    └─Conv2d: 3-1                       [-1, 3, 512, 512]         84
+|    |    └─Conv2d: 3-2                       [-1, 64, 512, 512]        256
+|    └─ResBlock: 2-2                          [-1, 64, 512, 512]        --
+|    |    └─ConvBlock: 3-3                    [-1, 64, 512, 512]        41,216
+|    |    └─ConvBlock: 3-4                    [-1, 64, 512, 512]        41,216
+|    └─ModuleList: 2                          []                        --
+|    |    └─ResBlock: 3-5                     [-1, 128, 256, 256]       373,952
+|    |    └─ResBlock: 3-6                     [-1, 256, 128, 128]       1,493,376
+|    |    └─ResBlock: 3-7                     [-1, 512, 64, 64]         5,968,640
+|    └─BatchNorm2d: 2-3                       [-1, 512, 64, 64]         1,024
+|    └─ReLU: 2-4                              [-1, 512, 64, 64]         --
+├─Decoder: 1-2                                [-1, 1, 512, 512]         --
+|    └─ModuleList: 2                          []                        --
+|    |    └─UpConvBlock: 3-8                  [-1, 256, 128, 128]       4,328,448
+|    |    └─UpConvBlock: 3-9                  [-1, 128, 256, 256]       1,082,880
+|    |    └─UpConvBlock: 3-10                 [-1, 64, 512, 512]        271,104
+|    └─BatchNorm2d: 2-5                       [-1, 64, 512, 512]        128
+|    └─ReLU: 2-6                              [-1, 64, 512, 512]        --
+|    └─Conv2d: 2-7                            [-1, 1, 512, 512]         577
+|    └─BatchNorm2d: 2-8                       [-1, 1, 512, 512]         2
+===============================================================================================
+Total params: 13,602,903
+Trainable params: 13,602,903
+Non-trainable params: 0
+Total mult-adds (M): 263.41
+===============================================================================================
+Input size (MB): 3.00
+Forward/backward pass size (MB): 538.00
+Params size (MB): 51.89
+Estimated Total Size (MB): 592.89
+===============================================================================================
+Epcohs: 1
+  9%|▉         | 2/22 [00:03<00:33,  1.69s/it]
+Traceback (most recent call last):
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-6dc7710c7f93>", line 1, in <module>
+    runfile('/home/kevinteng/Desktop/Gland-Segmentation/train_custom.py', wdir='/home/kevinteng/Desktop/Gland-Segmentation')
+  File "/snap/pycharm-professional/278/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/snap/pycharm-professional/278/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/train_custom.py", line 187, in <module>
+    main()
+  File "/home/kevinteng/Desktop/Gland-Segmentation/train_custom.py", line 145, in main
+    train_output = train(model, optimizer)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/train_custom.py", line 77, in train
+    pred = model(imgs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/model.py", line 176, in forward
+    output = self.dec(enc_feature)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/model.py", line 158, in forward
+    x = self.upblock[i](x, enc_feature[self.depth-(i+1)])
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/model.py", line 76, in forward
+    x = self.convblock2(x)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/Desktop/Gland-Segmentation/model.py", line 44, in forward
+    x = self.drop(x)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/modules/dropout.py", line 100, in forward
+    return F.dropout2d(input, self.p, self.training, self.inplace)
+  File "/home/kevinteng/envs/tfenv/lib/python3.6/site-packages/torch/nn/functional.py", line 1202, in dropout2d
+    return _VF.feature_dropout_(input, p, training) if inplace else _VF.feature_dropout(input, p, training)

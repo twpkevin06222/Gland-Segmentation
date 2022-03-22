@@ -29,13 +29,13 @@ class ConvBlock(nn.Module):
     batch norm -> activation -> weights
     """
     def __init__(self, in_channels: int, out_channels: int,
-                 stride: tuple = (1, 1), dropout: float = 0.2) -> None:
+                 stride: tuple = (1, 1), dropout: float = 0.1) -> None:
         super(ConvBlock, self).__init__()
         self.bn = nn.BatchNorm2d(in_channels)
         self.relu = nn.ReLU(inplace=True)
         self.conv = SeparableConv2d(in_channels, out_channels,
                                     stride=stride)
-        self.drop = nn.Dropout2d(dropout)
+        self.drop = nn.Dropout2d(dropout, inplace=True)
 
     def forward(self, x: Tensor) -> Tensor:
         x = self.bn(x)
@@ -50,8 +50,9 @@ class UpBlock(nn.Module):
     def __init__(self, in_channels: int, out_channels: int,
                  kernel_size: tuple = (3, 3)) -> None:
         super(UpBlock, self).__init__()
-        self.up = nn.Upsample(scale_factor=2, mode='nearest')
-        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size)
+        self.up = nn.UpsamplingNearest2d(scale_factor=2)
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size,
+                              padding='same')
 
     def forward(self, x: Tensor) -> Tensor:
         x = self.up(x)
@@ -137,11 +138,11 @@ class Encoder(nn.Module):
 
 class Decoder(nn.Module):
     def __init__(self, init_filter: int,
-                 depth: int) -> None:
+                 depth: int, n_class: int = 1) -> None:
         super(Decoder, self).__init__()
         self.init_filter = init_filter
         self.depth = depth
-        self.conv = nn.Conv2d(init_filter, 1, kernel_size=(3, 3),
+        self.conv = nn.Conv2d(init_filter, n_class, kernel_size=(3, 3),
                               stride=(1, 1), padding='same')
         self.upblock = nn.ModuleList([UpConvBlock(self.init_filter*(2**i), self.init_filter*(2**(i-1)))
                                      for i in range(depth, 0, -1)])
@@ -150,13 +151,15 @@ class Decoder(nn.Module):
         self.bn2 = nn.BatchNorm2d(1)
 
     def forward(self, enc_feature: list) -> Tensor:
-        x = self.upblock[0](enc_feature[3], enc_feature[2])
-        # x = self.upblock[1](x, enc_feature[1])
-        # x = self.upblock[2](x, enc_feature[0])
-        # x = self.bn1(x)
-        # x = self.relu(x)
-        # x = self.conv(x)
-        # x = self.bn2(x)
+        for i in range(len(self.upblock)):
+            if i is 0:
+                x = self.upblock[i](enc_feature[self.depth], enc_feature[self.depth-1])
+            else:
+                x = self.upblock[i](x, enc_feature[self.depth-(i+1)])
+        x = self.bn1(x)
+        x = self.relu(x)
+        x = self.conv(x)
+        x = self.bn2(x)
 
         return x
 
@@ -176,15 +179,7 @@ class UNet(nn.Module):
 
 
 if __name__ == '__main__':
-    tensor = torch.ones(8, 3, 512, 512).to(device)
-    model = Encoder(3, 64, 3).to(device)
-    dec = Decoder(64, 3).to(device)
-    output = model(tensor)
-    for i in output:
-        print(i.shape)
-    # dec_output = dec(output)
-    # print(dec_output.shape)
-    # model = UNet(3, 64, 3).to(device)
-    # summary(model, (3, 512, 512))
+    model = UNet(3, 64, 3).to(device)
+    summary(model, (3, 512, 512))
 
 

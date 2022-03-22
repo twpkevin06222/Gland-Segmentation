@@ -100,7 +100,6 @@ def train(model, optimizer):
 def test(model):
     num_batches = math.ceil(len(ds_dict['testA_ds']['img_npy']) / batch_size)
     model.eval()
-    test_loss, correct = 0, 0
     # no need back prop for testing set
     batch_xent_l = []
     batch_dice_l = []
@@ -147,10 +146,10 @@ def main():
         test_output = test(model)
         scheduler.step(test_output['loss'])
         print("Training Outputs: ")
-        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(train_output['loss'], train_output['xent_l'], 1 - train_output['dice_l']))
+        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:.2f}".format(train_output['loss'], train_output['xent_l'], 1 - train_output['dice_l']))
         print("-"*100)
         print("Validation Outputs: ")
-        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:2f}".format(test_output['loss'], test_output['xent_l'], 1-test_output['dice_l']))
+        print("Total loss: {:.2f}, BCE: {:.2f}, Dice Score: {:.2f}".format(test_output['loss'], test_output['xent_l'], 1-test_output['dice_l']))
         # logging
         wandb.log({"Train_total_loss": train_output['loss'], "Val_total_loss": test_output['loss']}, step=e)
         wandb.log({"Train_BCE_loss": train_output['xent_l'], "Val_BCE_loss": test_output['xent_l']}, step=e)

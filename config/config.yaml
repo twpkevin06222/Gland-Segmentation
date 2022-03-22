@@ -3,7 +3,7 @@ csv:
 n_class:
   value: 1
 batch_size:
-  value: 16
+  value: 2
 epochs:
   value: 200
 learning_rate:

@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-77-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2022-03-21T16:59:17.836767",
+    "startedAt": "2022-03-21T16:59:15.225308",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": "10.1.243",
+    "args": [],
+    "state": "running",
+    "program": "/home/kevinteng/Desktop/Gland-Segmentation/train_custom.py",
+    "codePath": "train_custom.py",
+    "git": {
+        "remote": "https://github.com/twpkevin06222/Gland-Segmentation.git",
+        "commit": "995fa7787aea236dede4216bc8e6f9acc90c4bb4"
+    },
+    "email": "tengwaipokevin@gmail.com",
+    "root": "/home/kevinteng/Desktop/Gland-Segmentation",
+    "host": "kevinteng-desktop",
+    "username": "kevinteng",
+    "executable": "/home/kevinteng/envs/tfenv/bin/python3.6"
+}
