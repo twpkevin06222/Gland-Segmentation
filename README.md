@@ -38,8 +38,8 @@ The metrics for segmentated mask evaluation is precision, recall, F1 score, dice
 
 |   | Precision  | Recall | F1 Score | Dice Score | Hausdorff Distance |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| testA  | 0.93  | 0.93 | 0.93 | 0.93 | 76.22 |
-| testB  | 0.90  | 0.90 | 0.90 | 0.91 | 62.36 |
+| testA  | 0.93 (0.06)  | 0.93 (0.06) | 0.93 (0.06) | 0.93 (0.07) | 83.35 (66.77) |
+| testB  | 0.90 (0.08)  | 0.90 (0.08) | 0.90 (0.08) | 0.91 (0.07) | 62.36 (33.02) |
 
 |Test A|Test B|
 |:--:|:--:|
